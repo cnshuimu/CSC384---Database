@@ -1,0 +1,62 @@
+DROP SCHEMA
+CREATE SCHEMA
+SET
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+INSERT 0 10
+INSERT 0 20
+INSERT 0 10
+INSERT 0 10
+INSERT 0 20
+INSERT 0 5
+INSERT 0 5
+INSERT 0 10
+INSERT 0 5
+INSERT 0 13
+REVOKE
+GRANT
+GRANT
+CREATE VIEW
+CREATE VIEW
+ cid | total_organization_donations | total_individual_donations 
+-----+------------------------------+----------------------------
+   1 |                            0 |                         24
+   2 |                           26 |                          0
+   3 |                            0 |                         28
+   4 |                           30 |                          0
+   5 |                            0 |                         32
+   6 |                            0 |                          0
+   7 |                            0 |                          0
+   8 |                            0 |                          0
+   9 |                            0 |                          0
+  10 |                            0 |                          0
+(10 rows)
+
+DROP VIEW
+REVOKE
+GRANT
+GRANT
+GRANT
+   v_email    
+--------------
+ 11@gmail.com
+(1 row)
+
+REVOKE
+GRANT
+GRANT
+GRANT
+   c_email   
+-------------
+ 1@gmail.com
+ 2@gmail.com
+(2 rows)
+
